@@ -24,7 +24,7 @@ udp:settimeout(0)
 -- [NOTE: on some operating systems, ports between 0 and 1024 are "reserved for 
 -- privileged processes". its a security precaution for those system.
 -- generally speaking, just not using ports in that range avoids a lot of problems]
-udp:setsockname('*', 12345)
+udp:setsockname('*', 42731)
  
 local world = {} -- the empty world-state
  
